@@ -99,7 +99,6 @@ plt.plot(t1, xi[:, 0], 'g--', label='Initial prediction')
 plt.plot(t1, xi[:, 1], 'r-', label='Optimized predicition')
 plt.ylabel(r'Biomass concentration ($g \; l^{-1}$)')
 plt.xlabel('Time (days)')
-label = ((r'$\mu_{max} = 0.77$'), (r'$K_s = 0.94$'))
 plt.legend(fontsize=12)
 plt.ylim(-0.2, 3)
 
