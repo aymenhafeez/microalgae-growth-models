@@ -1,2 +1,5 @@
-# MicroalgaeGrowthModels
-Various mathematical models I developed for simulating microalgae growth
+# Modelling microalgae growth
+
+The code from a research project I worked on which aimed to develop a mathematical model for simulating microalgae growth for CO<sub>2</sub> utilisation. A parameter optimisation was done to fit the model to experimental data and find the optimised parameter values.
+
+Some modelling was attempted using <a href="http://www.daetools.com">DAE Tools</a>, which is an "equation-based, object-oriented modelling, simulation and optimisation" software based in Python. However, the main optimisation results were generated using the sequential least-squares quadratic programming (SLSQP) algorithm within the SciPy optimize method.
